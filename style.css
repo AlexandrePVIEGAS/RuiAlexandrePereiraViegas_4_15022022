@@ -516,13 +516,14 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
     z-index: 500;
+    background: #414141;
     transition: all .3s ease-in-out;
 }
 
 .scrollToTop span {
     margin-top: 6px;
+    color: white;
 }
 
 .showScrollTop {
@@ -651,7 +652,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -702,6 +703,12 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    color: rgb(255, 255, 255);
+}
+
+.social a:hover{
+    color: white;
+    text-decoration: none;
 }
 
 h2 {
@@ -740,6 +747,7 @@ h4 {
 }
 
 .portfolio-thumb {
+    margin: auto;
     margin-bottom: 24px;
 }
 
@@ -758,8 +766,15 @@ h4 {
 }
 
 .bold-link {
-    font-weight: 900;
-    text-decoration: underline!important;
+    padding: 15px;
+    font-size: large;
+    font-weight: 700;
+    background: black;
+    border-radius: 40px;
+}
+
+.bold-link:hover {
+    background: #414141;
 }
 
 .bgc-white {
@@ -767,24 +782,24 @@ h4 {
 }
 
 .bgc-dark-slate-blue {
-    background-color: #364577;
+    background-color: #000000;
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #000000;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #000000;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #414141!important;
     color: #FFFFFF!important;
 }
 
