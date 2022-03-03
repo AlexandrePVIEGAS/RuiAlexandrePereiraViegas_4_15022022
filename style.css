@@ -272,6 +272,19 @@ a:hover {
     margin-top: 80px;
 }
 
+.display-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.citation-text {
+    width: 85%;
+    color: black;
+    font-size: 150%;
+    font-style: italic;
+}
+
 .row-no-gutters {
     margin-right: 0;
     margin-left: 0;
@@ -714,6 +727,19 @@ p {
 h2 {
     font-size: 22px;
     line-height: 1.4em;
+}
+
+.title-h2-1 {
+    width: 60%;
+}
+
+.title-h2-2 {
+    width: 45%;
+}
+
+.display-center {
+    display: flex;
+    justify-content: center;
 }
 
 h3 {
